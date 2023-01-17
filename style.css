@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+}
+
+.progress {
+    height: 25px;
+    width: 250px;
+    background-color: slategray;
+    border-radius: 15px;
+}
+
+.progress-done {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to right, tomato, red);
+    border-radius: 15px;
+    transition: 1s ease;
+    color: aliceblue;
+}
+
+/* .h3 {
+    color: white;
+    opacity: 0;
+} */
